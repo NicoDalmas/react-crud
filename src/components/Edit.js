@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Create extends React.Component {
+class Edit extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -9,7 +9,7 @@ class Create extends React.Component {
         return ( 
             <div className="card">
                 <div className="card-header">
-                    New Employee
+                    Edit Employee
                 </div>
                 <div className="card-body">
                     <h4 className="card-title">Title</h4>
@@ -23,4 +23,4 @@ class Create extends React.Component {
     }
 }
  
-export default Create;
+export default Edit;
