@@ -18,7 +18,7 @@ function App() {
     
     <nav className="navbar navbar-expand navbar-light bg-light">
       <div className="nav navbar-nav">
-          <Link className="nav-item nav-link active" to={"/"}>System <span class="sr-only">(current)</span></Link>
+          <Link className="nav-item nav-link active" to={"/"}>System <span class="sr-only"></span></Link>
           <Link className="nav-item nav-link" to={"/create"}>Create Employee</Link>
           <Link className="nav-item nav-link" to={"/edit"}>Edit Employee</Link>
       </div>
