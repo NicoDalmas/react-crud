@@ -13,7 +13,7 @@ class List extends React.Component {
     }
 
     loadData(){
-        fetch("https://localhost/empleados/")
+        fetch("https://localhost/employees/")
         .then(respuesta=>respuesta.json())
         .then((datosRespuesta)=>{
             
@@ -55,8 +55,8 @@ class List extends React.Component {
                                     (employee)=>(
                                         <tr key={employee.id}>
                                             <td>{employee.id}</td>
-                                            <td>{employee.nombre}</td>
-                                            <td>{employee.correo}</td>
+                                            <td>{employee.name}</td>
+                                            <td>{employee.email}</td>
                                             <td>
                                             <div className="btn-group" role="group" aria-label="">
                                                 <Link className="btn btn-warning" to={"/edit"}>Edit</Link>
